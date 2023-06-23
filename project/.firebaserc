@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "learning-firebase-b9f37": {
+      "hosting": {
+        "project": [
+          "learning-firebase-b9f37"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "learning-firebase-b9f37"
+  }
+}

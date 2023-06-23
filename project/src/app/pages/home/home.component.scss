@@ -1,0 +1,14 @@
+.card{
+    margin: 10px 0px;
+    width: 300px;
+    height: 350px;
+    padding: 5px 8px;
+
+}
+.buttons p{
+margin-top: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+}

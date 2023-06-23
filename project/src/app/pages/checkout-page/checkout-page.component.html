@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="card" *ngFor="let pd of data">
+      <img src="../assets/product.jpg" alt="">
+      <div class="buttons">
+        <p>price:{{pd.price}}</p>
+        <p>description:{{pd.description}}</p>
+        <button class="btn btn-danger m-2">Remove </button>
+      </div>
+    </div>
+</div>
+<!-- <table>
+    <tr>
+      <th>NAME</th>
+      <th>DESCRIPTION</th>
+      <th>PRICE</th>
+     
+    </tr>
+    <tr *ngFor="let pd of data">
+        <td>{{pd.name}}</td>
+        <td>{{pd.description}}</td>
+        <td>{{pd.price}}</td>
+    </tr>
+    </table> -->
